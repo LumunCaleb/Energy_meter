@@ -1,6 +1,6 @@
 //#include <LiquidCrystal_I2C.h>
 
-#include <LiquidCrystal.h>
+#include <LiquidCrystal.h>  //Liquid Crystal Library
 
 // EmonLibrary examples openenergymonitor.org, Licence GNU GPL V3
 
