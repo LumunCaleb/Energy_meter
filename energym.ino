@@ -6,9 +6,8 @@
 
 
 #include "EmonLib.h"                   // Include Emon Library
-EnergyMonitor emon1;   
-                // Create an instance
-LiquidCrystal lcd(13,12,11,10,9,8); //LiquidCrystal lcd(rs,en, d4,d5,d6,d7)
+EnergyMonitor emon1;     // Create an instance
+LiquidCrystal lcd(13,12,11,10,9,8); //LiquidCrystal lcd(rs,en, d4,d5,d6,d7) Connect these pins to Arduino Pin numbers
 
 //Measuring current using ACS712
 const int sensor_pin=A1;
